@@ -1,21 +1,22 @@
-:root{
-    line-height: 1.5;
-    font-weight: 700;
-    color: #fff;
-    font-size: 16px;
-    font-family: Roboto;
-}
+
 .wrapper{
     min-height: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    line-height: 1.5;
+    font-weight: 700;
+    color: #fff;
+    font-size: 16px;
+    font-family: Roboto;
 }
 .title{
     text-align: center;
     font-size: 38px;
     font-weight: 700;
+    margin-bottom: 48px;
+    color: #fff;
 }
 
 .subtitle{
@@ -23,10 +24,20 @@
     font-weight: 400;
 }
 .container{
-    max-width: 1200px;
-    margin: 0 auto;;
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 p{
     font-size: 16px;
     font-weight: 400;
+}
+a{
+    display: block;
+}
+
+@media(max-width:420px){
+    .title{
+        font-size: 18px;
+    }
 }

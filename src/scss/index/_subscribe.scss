@@ -1,0 +1,84 @@
+.subscribe{
+    padding: 101px 0px 83px 0px;
+    background: $black;
+
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 43px;
+        gap: 46px;
+    }
+    &__item{
+        &:nth-child(1){
+            background: url("/src/images/subscribe_1.png") 0 0 / cover no-repeat;
+        }
+        &:nth-child(2){
+            background: url("/src/images/subscribe_2.png") 0 0 / cover no-repeat;
+        }
+        &:nth-child(3){
+            background: url("/src/images/subscribe_3.png") 0 0 / cover no-repeat;
+        }
+        min-height: 615px;
+        padding: 24px;
+        
+    }
+    &__item-tipe{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 24px;
+        margin-bottom: 200px;
+    }
+    &__item-price{
+        display: flex;
+        justify-content: center;
+        font-weight: 400;
+        align-items: flex-start;
+        gap: 16px;
+        margin-bottom: 40px;
+    }
+    &__item-number{
+        font-size: 64px;
+        line-height: 1;
+    }
+    &__item-rubles{
+        font-size: 32px;
+    }
+    &__item-button{
+        text-align: center;
+        font-weight: 400;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        padding: 21px;
+        transition: all .3s;
+        
+        &:hover{
+            background: $gray;
+            color: $dark;
+        }
+    }
+    &__item-text{
+        font-size: 12.8px;
+        text-align: center;
+        font-weight: 400;
+        margin-top: 64px;
+    }
+    &__text{
+        text-align: center;
+    }
+
+}
+
+@media(max-width:420px){
+    .subscribe{
+        padding: 100px 0px 100px 0px;
+    }
+    .subscribe__list{
+        flex-direction: column;
+        gap: 26px;
+    }
+    .subscribe__item-tipe{
+        font-size: 16px;
+    }
+}

@@ -49,3 +49,14 @@
     }
     
 }
+
+@media(max-width: 420px){
+
+    .footer__top-inner{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer__bottom-list{
+        flex-direction: column;
+    }
+}
