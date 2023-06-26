@@ -1,0 +1,32 @@
+:root{
+    line-height: 1.5;
+    font-weight: 700;
+    color: #fff;
+    font-size: 16px;
+    font-family: Roboto;
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.subtitle{
+    font-size: 30px;
+    font-weight: 400;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+}

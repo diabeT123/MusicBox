@@ -1,0 +1,248 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+:root {
+  line-height: 1.5;
+  font-weight: 700;
+  color: #fff;
+  font-size: 16px;
+  font-family: Roboto;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.title {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header {
+  color: #CACACA;
+  padding: 28px 0 0 0;
+}
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__logo img {
+  max-width: 24px;
+  margin-right: 16px;
+}
+.header__logo p {
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.header__nav {
+  margin: 0 auto 0 90px;
+}
+.header__nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 400;
+  font-size: 11px;
+  gap: 24px;
+  text-transform: uppercase;
+}
+.header__nav-link {
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.header__nav-link:hover {
+  color: #fff;
+}
+.header__search {
+  background: #3C3B3D;
+  border-radius: 50px;
+  max-width: 248px;
+  width: 100%;
+  padding: 5px 10px;
+  color: #E0E0E0;
+}
+.header__search:placeholder {
+  color: #E0E0E0;
+  text-transform: uppercase;
+  font-size: 13.3px;
+}
+
+.footer {
+  color: #E0E0E0;
+  background: -webkit-gradient(linear, left top, right top, from(#5328A1), to(#95390C));
+  background: -o-linear-gradient(left, #5328A1, #95390C);
+  background: linear-gradient(90deg, #5328A1, #95390C);
+  padding: 62px 0 49px 0;
+}
+.footer__top {
+  padding-bottom: 72px;
+  border-bottom: 2px solid #CACACA;
+}
+.footer__top-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.footer__top-list li {
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.footer__top-list li:first-child {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.footer__top-list li:hover {
+  color: #fff;
+}
+.footer__top-google {
+  margin-right: 24px;
+}
+.footer__bottom {
+  padding-top: 40px;
+}
+.footer__bottom-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+}
+.footer__bottom-item {
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  font-weight: 400;
+}
+.footer__bottom-item:hover {
+  color: #fff;
+}/*# sourceMappingURL=app.css.map */

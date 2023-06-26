@@ -1,0 +1,56 @@
+.header{
+    color: $darkgray;
+    padding: 28px 0 0 0 ;
+
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo{
+        img{
+            max-width: 24px;
+            margin-right: 16px;
+        }
+        p{
+            font-size: 11px;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+
+        display: flex;
+        align-items: center;
+    }
+    &__nav{
+        margin: 0 auto 0 90px;
+    }
+    &__nav-list{
+        display: flex;
+        align-items: center;
+        font-weight: 400;
+        font-size: 11px;
+        gap: 24px;
+        text-transform: uppercase;
+    }
+    &__nav-link{
+        transition: all .3s;
+    }
+    &__nav-link:hover{
+        color: #fff;
+    }
+    &__search{
+        background: $dark;
+        border-radius: 50px;
+        max-width: 248px;
+        width: 100%;
+        padding: 5px 10px;
+        color: $gray;
+    }
+    &__search:placeholder{
+        color: $gray;
+        text-transform: uppercase;
+        font-size: 13.3px;
+
+    }
+
+}
