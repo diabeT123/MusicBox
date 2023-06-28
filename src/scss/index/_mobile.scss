@@ -1,0 +1,46 @@
+.mobile{
+    font-weight: 400;
+    background: $black;
+    padding: 100px 0px;
+    &__row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__inner{
+        max-width: 1060px;
+    }
+    &__row-content{
+        margin-right: 15px;
+        max-width: 600px;
+    }
+    &__row-text{
+        margin-bottom: 16px;
+        color: $darkgray;
+    }
+    &__row-button{
+        font-size: 12.8px;
+        padding: 17px;
+        background: $red;
+        max-width: 130px;
+        border-radius: 32px;
+        text-align: center;
+        width: 100%;
+        color: #fff;
+    }
+    &__row-image{
+        max-width: 330px;
+        width: 100%;
+    }
+}
+
+@media(max-width:420px){
+    .mobile__row{
+        flex-direction: column;
+    }
+    .mobile__row-content{
+        margin: 0;
+        order: 2;
+    }
+    
+}

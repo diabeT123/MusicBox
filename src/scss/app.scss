@@ -1,9 +1,15 @@
 @import "reset.scss";
-@import "general.scss";
 @import "variables.scss";
+@import "general.scss";
 @import "header.scss";
 @import "footer.scss";
 @import "./index/hero";
 @import "./index/subscribe";
 @import "./index/news";
+@import "./index/mobile";
+@import "./artists/morten";
+@import "./artists/track";
+@import "./artists/disco";
+@import "./artists/artists";
+
 

@@ -1,0 +1,46 @@
+.track{
+    background: $black;
+    padding-top: 100px;
+
+    &__title{
+        text-align: left;
+    }
+    &__list{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 25px 49px;
+    }
+
+    &__list-item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__list-content{
+        display: flex;
+        gap: 15px;
+    }
+    &__list-name{
+        text-transform: uppercase;
+        font-size: 12.8px;
+    }
+    &__list-author{
+        font-weight: 400;
+        font-size: 12.8px;
+        color: $darkgray;
+    }
+    &__list-image{
+        max-width: 55px;
+    }
+    &__list-time{
+        font-size: 12.8px;
+        color: $darkgray;
+    }
+
+}
+
+@media(max-width:420px){
+    .track__list{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

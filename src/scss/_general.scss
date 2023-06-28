@@ -11,6 +11,12 @@
     font-size: 16px;
     font-family: Roboto;
 }
+.button{
+    transition: all .3s;
+    &:hover{
+        transform: translateY(-5%);
+    }
+}
 .title{
     text-align: center;
     font-size: 38px;
@@ -34,6 +40,12 @@ p{
 }
 a{
     display: block;
+}
+
+%darkp{
+    color:  $darkgray ;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 @media(max-width:420px){

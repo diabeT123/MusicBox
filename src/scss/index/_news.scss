@@ -9,6 +9,9 @@
         align-items: flex-start;
         gap: 50px;
     }
+    &__content{
+        max-width: 540px;
+    }
     &__image-box{
         img{
             width: 100%;
